@@ -21,11 +21,15 @@ body {
 }
 */
 
-
+.logo h1 {
+    position: relative;
+    top: 0;
+    left: 1rem;
+    padding-bottom: 2rem;
+}
 
 .logo > a {
     font-size: 1rem;
-    margin-left: 2rem;
     text-decoration: none;
     color: black;
 }
