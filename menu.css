@@ -1,0 +1,151 @@
+:root {
+    --overlay-color: rgba(0, 0, 0, 0.3);
+    --menu-speed: 0.75s;
+}
+
+/*-----------------------------------------------*/
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar .toggler {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+
+.navbar .hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    background: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hamburger linje */
+
+.navbar .hamburger > div {
+    position: relative;
+    width: 100%;
+    height: 1.7px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+
+/* øverste og nederste streger */
+.navbar .hamburger > div:before,
+.navbar .hamburger > div:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    width: 100%;
+    height: 2px;
+    background: inherit;
+}
+
+/* flytter streg ned */
+.navbar .hamburger > div:after {
+    top: 10px;
+}
+
+/* Toggler animation */
+
+.navbar .toggler:checked + .hamburger > div {
+    transform: rotate(135deg);
+}
+
+/* skift til kryds */
+.navbar .toggler:checked + .hamburger > div:before,
+.navbar .toggler:checked + .hamburger > div:after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+/* Roter ved hover ved kryds */
+.navbar .toggler:checked:hover + .hamburger > div {
+    transform: rotate(225deg);
+}
+
+/* vis menu */
+.navbar .toggler:checked ~ .menu {
+    visibility: visible;
+}
+
+.navbar .toggler:checked ~ .menu > div {
+    transform: scale(1);
+    transition-duration: var(--menu-speed);
+}
+
+.navbar .toggler:checked ~ .menu > div > div {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+
+.navbar .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .menu > div {
+    background: var(--overlay-color);
+    border-radius: 50%;
+    width: 200vw;
+    height: 200vw;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: all 0.4s ease;
+}
+
+
+.navbar .menu > div > div {
+    text-align: center;
+    max-width: 90vw;
+    max-height: 100vw;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+/* styling af menupunkter */
+.navbar .menu > div > div > ul > li {
+    list-style: none;
+    color: black;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+/* styling af links */
+.navbar .menu > div > div > ul > li > a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.4s ease;
+}
