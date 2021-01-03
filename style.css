@@ -13,18 +13,24 @@ body {
 }
 
 /* ------------------------ Menu ------------------------------*/
-
+/*
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+*/
 
-.logo {
+
+
+.logo > a {
     font-size: 1rem;
     margin-left: 2rem;
+    text-decoration: none;
+    color: black;
 }
 
+/*
 .menu ul {
     margin: 0;
     padding: 0;
@@ -44,7 +50,7 @@ body {
 
 .menu li:hover {
     background-color: #555;
-}
+} */
 
 /* burger menu version 1
 
