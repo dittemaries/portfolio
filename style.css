@@ -1,4 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    margin: 0.2rem;
+}
+
+body {
+    margin: 0.3rem;
+    padding: 0;
+}
+
 /*------------------layout forside mobil version-----------------------*/
+
+/* billede 1-2 */
+
+#row_1 {
+    display: grid;
+    grid-template-columns: (2, 1fr);
+    grid-template-rows: (2, 1fr);
+}
+
+.billede_1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.billede_2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
 
 /* billede 3-4 */
 
