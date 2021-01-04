@@ -26,6 +26,11 @@
     grid-row: span 2;
 }
 
+.container_forside .box.a:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 .container_forside .box.b,
 .container_forside .box.f,
 .container_forside .box.h,
@@ -33,6 +38,7 @@
     grid-column: span 2;
 }
 
+/* ------------------------------------------- medio versioner ------------------------------------------------ */
 @media (max-width: 990px) {
     .container_forside {
         grid-template: "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px;
