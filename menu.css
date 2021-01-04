@@ -32,6 +32,7 @@
     height: 60px;
     padding: 1rem;
     background: white;
+    opacity: 0.7;
     display: flex;
     align-items: center;
     justify-content: center;
