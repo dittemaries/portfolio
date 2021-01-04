@@ -12,6 +12,10 @@ body {
     padding: 0;
 }
 
+main {
+    overflow: hidden;
+}
+
 /* ----------------------- Logo --------------*/
 
 .logo h1 {
@@ -124,6 +128,57 @@ body {
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 1;
+}
+
+
+/*---------------------------------------- layout om-side mobil ----------------------------------*/
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    max-width: 100%;
+}
+
+.sektion_1 h2 {
+    font-family: minion-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.sektion_1 p {
+    font-family: omnes-pro, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.sektion_1 {
+    position: relative;
+    padding: 4rem;
+}
+
+.sektion_2 {
+    position: relative;
+    padding: 3rem;
+    max-width: 80%;
+    left: 30vw;
+
+}
+
+.sektion_2 p {
+    font-family: omnes-pro, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.sektion_3 {
+    padding: 2rem;
 }
 
 /*----------------------- Footer ------------------------------------------- */
