@@ -1,0 +1,83 @@
+/*-------------------- global ------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    margin: 0.2rem;
+}
+
+body {
+    margin: 0.3rem;
+    padding: 0;
+}
+
+main {
+    overflow: hidden;
+}
+
+header {
+    min-height: 120px;
+}
+
+/* ----------------------- Logo --------------*/
+
+.logo h1 {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    padding-bottom: 2rem;
+
+    font-family: omnes-pro, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+    z-index: 1;
+}
+
+.logo > a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+/*----------------------- Footer ------------------------------------------- */
+
+#footer {
+    margin-top: 3rem;
+    margin-left: 0.7rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.toplink a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: -13px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: white;
+    color: black;
+}

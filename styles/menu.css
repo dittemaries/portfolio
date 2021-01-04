@@ -142,11 +142,13 @@
     color: white;
     font-size: 2rem;
     padding: 1rem;
+
+
 }
 
 /* styling af links */
 .navbar .menu > div > div > ul > li > a {
-    color: inherit;
+    color: white;
     text-decoration: none;
     transition: color 0.4s ease;
     font-family: omnes-pro, sans-serif;
