@@ -1,5 +1,35 @@
-/*--------------------------------- Tema 2: web -------------------------------------*/
+/*--------------------------------- Tema 2: web ---- mobil version ------------------*/
 
-body {
-    height: 100%;
+/* sektion 1 */
+.sektion_1 {
+    position: relative;
+    background-image: url(blocks.jpg);
+    width: 100%;
+    background-size: cover;
+    max-width: none;
+    height: 300px;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+
+/* pil ned */
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
