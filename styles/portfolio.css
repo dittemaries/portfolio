@@ -6,7 +6,6 @@
     background-image: url(blocks.jpg);
     width: 100%;
     background-size: cover;
-    max-width: none;
     height: 300px;
 }
 
@@ -50,6 +49,7 @@
     max-width: 70%;
     max-height: 70%;
     margin-left: 10rem;
+    margin-bottom: 3rem;
 }
 
 /* sektion 3 */
@@ -89,3 +89,48 @@
 }
 
 /* sektion 4 */
+
+.sektion_4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.billede_container2 {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.link_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.siteknap {
+    padding: 1rem;
+}
+
+.siteknap a {
+    text-decoration: none;
+    color: black;
+    font-family: omnes-pro, sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.arrow1 {
+    position: relative;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    top: 1.4rem;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
