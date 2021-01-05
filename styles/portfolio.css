@@ -8,16 +8,14 @@
     background-size: cover;
     max-width: none;
     height: 300px;
-    overflow: hidden;
 }
 
-.container {
+.pil_container {
     position: absolute;
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white;
 }
 
 
@@ -33,3 +31,61 @@
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
+
+/* sektion 2 */
+
+.billede_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.stort_billede {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.lille_billede {
+    max-width: 70%;
+    max-height: 70%;
+    margin-left: 10rem;
+}
+
+/* sektion 3 */
+.tekst_container {
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+
+.tekst_container h2 {
+    font-family: minion-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.7rem;
+    padding: 1rem;
+}
+
+.tekst_container p {
+    font-family: omnes-pro, sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.tekst_container .sek3_tekst1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.tekst_container .sek3_tekst2 {
+    padding-left: 4rem;
+    padding-right: 1.8rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: end;
+}
+
+/* sektion 4 */
