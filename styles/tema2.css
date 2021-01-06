@@ -1,0 +1,141 @@
+/*--------------------------------- Tema 2: web ---- mobil version ------------------*/
+
+/* sektion 1 */
+.sektion_1 {
+    position: relative;
+    background-image: url(splash_v1.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+}
+
+.pil_container {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* pil ned */
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* sektion 2 */
+
+.billede_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*padding: 1.5rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;*/
+}
+
+.stort_billede {
+    width: 100vw;
+    /*margin-top: 3rem;
+    margin-bottom: 1rem;*/
+}
+
+.lille_billede {
+    width: 100vw;
+    height: auto;
+    /*margin-left: 5rem;
+    margin-bottom: 3rem;*/
+}
+
+/* sektion 3 */
+.tekst_container {
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+
+.tekst_container h2 {
+    font-family: minion-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.7rem;
+    padding: 1rem;
+}
+
+.tekst_container p {
+    font-family: omnes-pro, sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.tekst_container .sek3_tekst1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.tekst_container .sek3_tekst2 {
+    padding-left: 4rem;
+    padding-right: 1.8rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: end;
+}
+
+/* sektion 4 */
+
+.sektion_4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.billede_container2 {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.link_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.siteknap {
+    padding: 1rem;
+}
+
+.siteknap a {
+    text-decoration: none;
+    color: black;
+    font-family: omnes-pro, sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.arrow1 {
+    position: relative;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    top: 1.4rem;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
