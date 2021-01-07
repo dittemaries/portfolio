@@ -340,7 +340,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    width: 80%;
+    width: 256px;
 }
 
 .container_forside .overlay_j {
@@ -375,9 +375,6 @@
         grid-gap: 5px;
     }
 
-    .container_forside .content.j {
-        width: 60%;
-    }
 }
 
 @media (max-width: 740px) {
@@ -408,6 +405,6 @@
 
 @media (min-width: 535px) {
     .container_forside .content.g {
-        width: 60%;
+        width: 157px;
     }
 }
