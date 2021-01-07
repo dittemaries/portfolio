@@ -22,6 +22,16 @@
     object-fit: cover;
 }
 
+/* tekst på billeder ved hover */
+
+.container_forside .content {
+    font-family: poiret-one, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+/* ---------------- box a -------ingen link----------- */
 .container_forside .box.a {
     grid-row: span 2;
     background-image: url(baggrunde/shoot.jpg);
@@ -30,11 +40,34 @@
     max-width: 50vw;
 }
 
-
-.container_forside .box.a:hover {
-    opacity: 0.8;
-    cursor: pointer;
+/* hover funktion */
+.container_forside .content.a {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
+
+.container_forside .overlay_a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: none;
+}
+
+.container_forside .overlay_a:hover {
+    opacity: 1;
+}
+
+/* ---------------- box b-j position -------------------*/
 
 .container_forside .box.b,
 .container_forside .box.f,
@@ -43,23 +76,110 @@
     grid-column: span 2;
 }
 
+/* -------------------- box b -----link til tema 3----------- */
+
 .container_forside .box.b {
     background-image: url(baggrunde/jylland.jpg);
     background-size: cover;
     background-position: 0 88%;
 }
 
+/* hover funktion */
+.container_forside .content.b {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.container_forside .overlay_b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.container_forside .overlay_b:hover {
+    opacity: 1;
+}
+
+/* ----------- box c ------ingen link------- */
 .container_forside .box.c {
     background-image: url(baggrunde/fotobog.jpg);
     background-size: cover;
     background-position: 0 30%;
 }
 
+/* hover funktion */
+.container_forside .content.c {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.container_forside .overlay_c {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: none;
+}
+
+.container_forside .overlay_c:hover {
+    opacity: 1;
+}
+
+/* -------------- box d -------ingen link-------- */
 .container_forside .box.d {
     background-image: url(baggrunde/studie.jpg);
     background-size: cover;
     background-position: 0 30%;
 }
+
+/* hover funktion */
+.container_forside .content.d {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.container_forside .overlay_d {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: none;
+}
+
+.container_forside .overlay_d:hover {
+    opacity: 1;
+}
+
+/*------------ box e -----ingen hover titel billede -------*/
 
 .container_forside .box.e {
     background-image: url(baggrunde/Custom%20Size%20%E2%80%93%201.png);
@@ -67,7 +187,7 @@
     background-position: 0 50%;
 }
 
-
+/* -------------- box f ----- link til tema 2 ---- */
 
 .container_forside .box.f {
     background-image: url(baggrunde/naturlejren.jpg);
@@ -75,23 +195,137 @@
     background-position: 0 65%;
 }
 
+/* hover funktion */
+.container_forside .content.f {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.container_forside .overlay_f {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.container_forside .overlay_f:hover {
+    opacity: 1;
+}
+
+/* --------- box g -----link til tema 4------ */
+
 .container_forside .box.g {
     background-image: url(baggrunde/gal.jpg);
     background-size: cover;
     background-position: 0 70%;
 }
 
+/* hover funktion */
+.container_forside .content.g {
+    position: absolute;
+    top: 47%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.container_forside .overlay_g {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.container_forside .overlay_g:hover {
+    opacity: 1;
+}
+
+/* ----------- box h -----link til tema 5-------- */
 .container_forside .box.h {
     background-image: url(baggrunde/morfar.jpg);
     background-size: cover;
     background-position: 0 20%;
 }
 
+/* hover funktion */
+.container_forside .content.h {
+    position: absolute;
+    top: 47%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.container_forside .overlay_h {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.container_forside .overlay_h:hover {
+    opacity: 1;
+}
+
+/* -------------- box i ------------ ingen link */
 .container_forside .box.i {
     background-image: url(baggrunde/tredive.jpg);
     background-size: cover;
     background-position: 0 70%;
 }
+
+/* hover funktion */
+.container_forside .content.i {
+    position: absolute;
+    top: 47%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.container_forside .overlay_i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: none;
+}
+
+.container_forside .overlay_i:hover {
+    opacity: 1;
+}
+
+/* ------------- box j ------ ingen link --*/
 
 .container_forside .box.j {
     background-image: url(baggrunde/bali.jpg);
@@ -99,11 +333,50 @@
     background-position: 0 80%;
 }
 
+/* hover funktion */
+.container_forside .content.j {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+}
+
+.container_forside .overlay_j {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: none;
+}
+
+.container_forside .overlay_j:hover {
+    opacity: 1;
+}
+
 /* ------------------------------------------- medio versioner ------------------------------------------------ */
+
+@media (min-width: 1374px) {
+    .container_forside .content.g {
+        width: 67%;
+    }
+}
+
 @media (max-width: 990px) {
     .container_forside {
         grid-template: "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px;
         grid-gap: 5px;
+    }
+
+    .container_forside .content.j {
+        width: 60%;
     }
 }
 
@@ -111,6 +384,12 @@
     .container_forside {
         grid-template: "1fr 1fr 1fr"200px "1fr 1fr 1fr"200px "1fr 1fr 1fr"200px "1fr 1fr 1fr"200px "1fr 1fr 1fr"200px;
         grid-gap: 5px;
+    }
+}
+
+@media (min-width: 732px) {
+    .container_forside .content.h {
+        max-width: 290px;
     }
 }
 
@@ -124,5 +403,11 @@
 
     .container_forside .box.h {
         grid-column: span 1;
+    }
+}
+
+@media (min-width: 535px) {
+    .container_forside .content.g {
+        width: 60%;
     }
 }
