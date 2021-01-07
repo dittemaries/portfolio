@@ -7,17 +7,26 @@
 }
 
 .sektion_1 h2 {
-    font-family: minion-pro, serif;
+    font-family: poiret-one, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 3rem;
 }
 
 .sektion_1 p {
-    font-family: omnes-pro, sans-serif;
+    /*font-family: omnes-pro, sans-serif;
     font-size: 1.5rem;
     font-style: normal;
-    letter-spacing: 1px;
+    letter-spacing: 1px;*/
+    font-family: minion-pro, serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.sektion_2 p a {
+    text-decoration: none;
+    color: black;
 }
 
 .sektion_1 {
@@ -34,10 +43,10 @@
 }
 
 .sektion_2 p {
-    font-family: omnes-pro, sans-serif;
-    font-size: 1rem;
+    font-family: minion-pro, serif;
+    font-weight: 100;
     font-style: normal;
-    letter-spacing: 1px;
+    font-size: 1rem;
 }
 
 .sektion_3 {

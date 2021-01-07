@@ -24,7 +24,12 @@
 
 .container_forside .box.a {
     grid-row: span 2;
+    background-image: url(baggrunde/shoot.jpg);
+    background-size: cover;
+    background-position: 50%;
+    max-width: 50vw;
 }
+
 
 .container_forside .box.a:hover {
     opacity: 0.8;
@@ -36,6 +41,62 @@
 .container_forside .box.h,
 .container_forside .box.j {
     grid-column: span 2;
+}
+
+.container_forside .box.b {
+    background-image: url(baggrunde/jylland.jpg);
+    background-size: cover;
+    background-position: 0 88%;
+}
+
+.container_forside .box.c {
+    background-image: url(baggrunde/fotobog.jpg);
+    background-size: cover;
+    background-position: 0 30%;
+}
+
+.container_forside .box.d {
+    background-image: url(baggrunde/studie.jpg);
+    background-size: cover;
+    background-position: 0 30%;
+}
+
+.container_forside .box.e {
+    background-image: url(baggrunde/Custom%20Size%20%E2%80%93%201.png);
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+
+
+.container_forside .box.f {
+    background-image: url(baggrunde/naturlejren.jpg);
+    background-size: cover;
+    background-position: 0 65%;
+}
+
+.container_forside .box.g {
+    background-image: url(baggrunde/gal.jpg);
+    background-size: cover;
+    background-position: 0 70%;
+}
+
+.container_forside .box.h {
+    background-image: url(baggrunde/morfar.jpg);
+    background-size: cover;
+    background-position: 0 20%;
+}
+
+.container_forside .box.i {
+    background-image: url(baggrunde/tredive.jpg);
+    background-size: cover;
+    background-position: 0 70%;
+}
+
+.container_forside .box.j {
+    background-image: url(baggrunde/bali.jpg);
+    background-size: cover;
+    background-position: 0 80%;
 }
 
 /* ------------------------------------------- medio versioner ------------------------------------------------ */

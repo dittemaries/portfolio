@@ -1,5 +1,5 @@
 :root {
-    --overlay-color: rgba(0, 0, 0, 0.3);
+    --overlay-color: rgba(0, 0, 0, 0.5);
     --menu-speed: 0.75s;
 }
 
@@ -151,7 +151,15 @@
     color: white;
     text-decoration: none;
     transition: color 0.4s ease;
-    font-family: omnes-pro, sans-serif;
+    /*font-family: omnes-pro, sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 4rem;
+    font-family: priori-sans, sans-serif;
+    font-weight: 100;
+    font-style: normal;*/
+    font-family: poiret-one, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
 }
