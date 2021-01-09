@@ -6,7 +6,7 @@
     max-width: 100%;
 }
 
-/* ---------------- mobil version ---------------- */
+/* -------------------------- mobil version ---------------------------------- */
 
 /* ------------- font tilpasning -------------- */
 .sektion_1 h2 {
@@ -60,11 +60,150 @@
 .sektion_3 {
     position: relative;
     top: 5rem;
-    max-width: 430px;
+    max-width: 100%;
     max-height: auto;
 }
 
-/* -------------------------------------- desk top ---------------------------------------------- */
+/* ------------ medium størrelse ------------ */
+
+@media (min-width: 532px) {
+    .sektion_1 p {
+        font-size: 1.5rem;
+    }
+
+    .sektion_2 p {
+        font-size: 1.2rem;
+    }
+
+    .sektion_3 {
+        padding: 1rem;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 680px) {
+    .sektion_2 {
+        margin-left: 7rem;
+        margin-right: 2rem;
+        padding: 2rem;
+    }
+
+    .sektion_3 {
+        padding: 3rem;
+    }
+}
+
+@media (min-width: 770px) {
+    .sektion_1 {
+        margin-left: 2rem;
+        margin-right: 3rem;
+    }
+
+    .sektion_2 {
+        margin-left: 8rem;
+        margin-right: 3rem;
+    }
+
+    .sektion_3 {
+        padding: 4rem;
+    }
+}
+
+@media (min-width: 870px) {
+    .sektion_2 {
+        margin-left: 10rem;
+        margin-right: 10rem;
+
+    }
+
+    .sektion_3 {
+        width: 700px;
+        height: auto;
+        left: 8vw;
+    }
+}
+
+@media (min-width: 970px) {
+    .sektion_1 {
+        padding: 3rem;
+    }
+
+    .sektion_1 h2 {
+        max-width: 45%;
+    }
+
+    .sektion_2 {
+        margin-left: 20rem;
+    }
+
+    .sektion_3 {
+        width: 600px;
+        left: 3vw;
+        top: -2vw;
+    }
+}
+
+/* ----------------------------- desk top ------------------------------------- */
+@media (min-width: 1200px) {
+
+    /* ------------- font tilpasning -------------- */
+    .sektion_1 h2 {
+        font-family: poiret-one, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3rem;
+    }
+
+    .sektion_1 p {
+        font-family: minion-pro, serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 1.7rem;
+    }
+
+    .sektion_2 p {
+        font-family: minion-pro, serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 1.3rem;
+    }
+
+    .sektion_2 p a {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* -------------- sektions tilpasning -------------- */
+    .sektion_1 {
+        position: relative;
+        margin-right: 10rem;
+        margin-left: 3rem;
+        padding: 4rem;
+    }
+
+    .sektion_1 h2 {
+        max-width: 51%;
+    }
+
+    .sektion_2 {
+        position: relative;
+        overflow: hidden;
+        padding: 3rem;
+        max-width: 80%;
+        margin-left: 40rem;
+        margin-right: 6rem;
+    }
+
+    .sektion_3 {
+        position: relative;
+        padding: 2rem;
+        width: 500px;
+        height: auto;
+        top: -30vw;
+        left: 8vw;
+    }
+}
+
 @media (min-width: 1355px) {
 
     /* ------------- font tilpasning -------------- */
@@ -124,5 +263,3 @@
         left: 10vw;
     }
 }
-
-/* -------------------------- mobil version ----------------------------- */
