@@ -6,40 +6,21 @@
     max-width: 100%;
 }
 
+/* ---------------- mobil version ---------------- */
+
+/* ------------- font tilpasning -------------- */
 .sektion_1 h2 {
     font-family: poiret-one, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 3rem;
+    font-size: 2.7rem;
 }
 
 .sektion_1 p {
-    /*font-family: omnes-pro, sans-serif;
-    font-size: 1.5rem;
-    font-style: normal;
-    letter-spacing: 1px;*/
     font-family: minion-pro, serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 1.5rem;
-}
-
-.sektion_2 p a {
-    text-decoration: none;
-    color: black;
-}
-
-.sektion_1 {
-    position: relative;
-    padding: 4rem;
-}
-
-.sektion_2 {
-    position: relative;
-    padding: 3rem;
-    max-width: 80%;
-    left: 30vw;
-
+    font-size: 1.3rem;
 }
 
 .sektion_2 p {
@@ -49,6 +30,99 @@
     font-size: 1rem;
 }
 
-.sektion_3 {
-    padding: 2rem;
+.sektion_2 p a {
+    text-decoration: none;
+    color: black;
 }
+
+/* -------------- sektions tilpasning -------------- */
+.sektion_1 {
+    position: relative;
+    padding: 1rem;
+    margin-right: 2rem;
+    margin-left: 0.5rem;
+}
+
+.sektion_1 h2 {
+    max-width: 60%;
+}
+
+.sektion_2 {
+    position: relative;
+    margin-left: 4rem;
+    margin-right: 1.5rem;
+    margin-bottom: 3rem;
+    top: 3rem;
+    padding: 1rem;
+
+}
+
+.sektion_3 {
+    position: relative;
+    top: 5rem;
+    max-width: 430px;
+    max-height: auto;
+}
+
+/* -------------------------------------- desk top ---------------------------------------------- */
+@media (min-width: 1355px) {
+
+    /* ------------- font tilpasning -------------- */
+    .sektion_1 h2 {
+        font-family: poiret-one, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3rem;
+    }
+
+    .sektion_1 p {
+        font-family: minion-pro, serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 1.7rem;
+    }
+
+    .sektion_2 p {
+        font-family: minion-pro, serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 1.3rem;
+    }
+
+    .sektion_2 p a {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* -------------- sektions tilpasning -------------- */
+    .sektion_1 {
+        position: relative;
+        margin-right: 20rem;
+        margin-left: 5rem;
+        padding: 4rem;
+    }
+
+    .sektion_1 h2 {
+        max-width: 40%;
+    }
+
+    .sektion_2 {
+        position: relative;
+        overflow: hidden;
+        padding: 3rem;
+        max-width: 80%;
+        margin-left: 45rem;
+        margin-right: 10rem;
+    }
+
+    .sektion_3 {
+        position: relative;
+        padding: 2rem;
+        width: 500px;
+        height: auto;
+        top: -20vw;
+        left: 10vw;
+    }
+}
+
+/* -------------------------- mobil version ----------------------------- */
