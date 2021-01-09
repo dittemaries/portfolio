@@ -3,7 +3,7 @@
 /* sektion 1 */
 .sektion_1 {
     position: relative;
-    background-image: url(splash_v1.jpg);
+    background-image: url(baggrunde/splash_v1.jpg);
     width: 100%;
     background-size: cover;
     height: 300px;
