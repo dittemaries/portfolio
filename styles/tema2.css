@@ -31,7 +31,7 @@
     -webkit-transform: rotate(45deg);
 }
 
-/* sektion 2 */
+/* ----------------- sektion 2 --------------------  */
 
 .billede_container {
     display: flex;
@@ -51,7 +51,7 @@
 
 }
 
-/* sektion 3 */
+/*------------------------ sektion 3 -------------------- */
 .tekst_container {
     display: flex;
     flex-direction: column;
@@ -86,7 +86,7 @@
     text-align: end;
 }
 
-/* sektion 4 */
+/* -------------- sektion 4 ----------------- */
 
 .sektion_4 {
     display: flex;

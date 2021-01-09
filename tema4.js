@@ -1,7 +1,7 @@
-window.addEventListener("load", startScreen);
+window.addEventListener("load", startAnimation);
 
-function startScreen() {
-    console.log("startScreen");
+function startAnimation() {
+    console.log("startAnimation");
 
     document.querySelector("#container_egern").classList.add("bane");
 }

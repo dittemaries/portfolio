@@ -1,9 +1,9 @@
 /*--------------------------------- Tema 3: web ---- mobil version ------------------*/
 
-/* sektion 1 */
+/* ------------- sektion 1 ---------- */
 .sektion_1 {
     position: relative;
-    background-image: url(Landingpage.jpg);
+    background-image: url(baggrunde/krukke_bred.jpg);
     width: 100%;
     background-size: cover;
     height: 300px;
@@ -32,37 +32,53 @@
     -webkit-transform: rotate(45deg);
 }
 
-/* sektion 2 */
+/* ----------- sektion 2 ---------------- */
 
 .billede_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*padding: 1.5rem;*/
-    /*margin-top: 7rem;*/
+
 }
 
+/* slideshow stort billede */
 .stort_billede {
-    /*margin-top: 1rem;*/
+    position: relative;
+    background-size: cover;
     width: 100vw;
-    height: auto;
-    padding: 0.2rem;
-    /*margin-bottom: 10rem;*/
+    height: 500px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    animation: animate 1.7s ease-in-out infinite;
 
 }
+
+@keyframes animate {
+
+    0%,
+    100% {
+        background-image: url(baggrunde/line3_hoej.jpg);
+    }
+
+    33% {
+        background-image: url(baggrunde/line2_hoej.jpg);
+    }
+
+    66% {
+        background-image: url(baggrunde/line1_hoej.jpg);
+    }
+}
+
 
 .lille_billede {
-    /*width: 90%;
-    height: 90%;
-    margin-left: 2.7rem;
-    margin-bottom: 1rem;
-    margin-top: 2rem;*/
     margin-left: 0.5rem;
     padding: 0.5rem;
     border: 2px solid cadetblue;
+    margin-bottom: 2rem;
 }
 
-/* sektion 3 */
+/* -------------- sektion 3 ------------------ */
 .tekst_container {
     display: flex;
     flex-direction: column;
@@ -97,7 +113,7 @@
     text-align: end;
 }
 
-/* sektion 4 */
+/* --------------- sektion 4 ------------------- */
 
 .sektion_4 {
     display: flex;
@@ -106,16 +122,32 @@
     margin-bottom: 7rem;
 }
 
-/* slide 1 */
+/* video */
 
-embed {
-    margin-left: 1.5rem;
-    margin-top: 2rem;
-    border: 3px solid #CE6A6C;
-
+.video {
+    margin-bottom: 3rem;
 }
 
-/* midterste billede + link til prototype */
+.luna {
+    width: 100%;
+    height: 53vw;
+    padding: 1rem;
+}
+
+/* slide */
+
+.slide1 {
+    margin: 1rem;
+}
+
+.pdf {
+    width: 100%;
+    height: 510px;
+    border: 3px solid black;
+    padding: 1rem;
+}
+
+/* nederste billede + link til site */
 .billede_container2 {
     text-align: center;
     padding: 1rem;
@@ -154,16 +186,4 @@ embed {
 .right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
-}
-
-/* slide 2 */
-
-.pitch {
-    width: 90vw;
-    height: 50vw;
-    overflow: hidden;
-    padding: 1rem;
-    padding-left: 1rem;
-    border: 3px solid #CE6A6C;
-    margin-left: 0.8rem;
 }

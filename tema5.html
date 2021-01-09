@@ -7,7 +7,7 @@
     <title>Indhold</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/menu.css">
-    <link rel="stylesheet" href="styles/portfolio.css">
+    <link rel="stylesheet" href="styles/tema5.css">
     <meta name="robots" content="noindex">
 
     <!-- fonte -->
@@ -36,11 +36,12 @@
                 <div>
                     <div>
                         <ul>
+                            <li><a href="om.html">Om</a></li>
                             <li><a href="tema2.html">Web</a></li>
                             <li><a href="tema3.html">UX</a></li>
                             <li><a href="tema4.html">Animation</a></li>
                             <li><a href="tema5.html">Indhold</a></li>
-                            <li><a href="om.html">Om</a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -48,7 +49,52 @@
         </nav>
 
     </header>
-    <main></main>
+    <main>
+
+        <!-- hero billede med overskrift-->
+        <section class="sektion_1">
+            <div class="hero-image">
+                <div class="pil_container">
+                    <span class="pil"><a href="#sektion_3"><i class="arrow down"></i></a></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- sektion med to billeder -->
+        <section class="sektion_2">
+            <div class="billede_container">
+                <div class="stort_billede"></div>
+                <img class="lille_billede" src="indhold/skaal_bred.jpg" alt="lille billede">
+            </div>
+        </section>
+
+        <!-- sektion med to tekststykker-->
+        <section id="sektion_3">
+            <div class="tekst_container">
+                <h2>Grundlæggende Indhold</h2>
+                <p class="sek3_tekst1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus deleniti obcaecati, iure quaerat natus nemo voluptate, tempore alias minus sunt impedit reprehenderit, veritatis neque perspiciatis! Provident itaque ducimus et eius.Doloribus deleniti obcaecati, iure quaerat natus nemo voluptate, tempore alias minus sunt impedit reprehenderit, veritatis neque perspiciatis! Provident itaque ducimus et eius.</p>
+                <p class="sek3_tekst2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem alias laudantium, odit voluptates, recusandae excepturi voluptatem repellat modi nesciunt dolorem perferendis voluptas nostrum deserunt. officiis?</p>
+            </div>
+
+        </section>
+
+        <!-- sektion med slide billeder -->
+        <section class="sektion_4">
+            <div class="video">
+                <iframe class="luna" src="https://www.youtube.com/embed/4dIGv3XO_xg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="slide1">
+                <embed class="pdf" src="indhold/05.03.01_designdokumentation_vindekilde_gruppeB3.pdf" type="application/pdf" />
+            </div>
+            <div class="billede_container2"><img class="linkbillede" src="indhold/kopper_bred.jpg" alt="stilbillede af kopper">
+                <div class="link_container">
+                    <div class="siteknap"><a href="https://vindekildebylinebilleskov.netlify.app/forside.html">Besøg sitet</a></div>
+                    <div class="arrow_div"><a href="https://vindekildebylinebilleskov.netlify.app/forside.html">
+                            <i class="arrow1 right"></i></a></div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 <footer id="footer">
