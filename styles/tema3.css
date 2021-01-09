@@ -42,24 +42,20 @@
     /*margin-top: 7rem;*/
 }
 
-.stort_billede {
-    /*margin-top: 1rem;*/
-    width: 100vw;
-    height: auto;
-    padding: 0.2rem;
-    /*margin-bottom: 10rem;*/
-
-}
-
 .lille_billede {
-    /*width: 90%;
-    height: 90%;
-    margin-left: 2.7rem;
-    margin-bottom: 1rem;
-    margin-top: 2rem;*/
-    margin-left: 0.5rem;
     padding: 0.5rem;
     border: 2px solid cadetblue;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.stort_billede {
+    width: 100vw;
+    height: auto;
+    padding: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* sektion 3 */
@@ -75,6 +71,8 @@
     font-style: normal;
     font-size: 2.7rem;
     padding: 1rem;
+    padding-left: 2rem;
+    max-width: 80%;
 }
 
 .tekst_container p {
@@ -85,13 +83,13 @@
 }
 
 .tekst_container .sek3_tekst1 {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .tekst_container .sek3_tekst2 {
     padding-left: 4rem;
-    padding-right: 1.8rem;
+    padding-right: 3rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
     text-align: end;
@@ -102,16 +100,16 @@
 .sektion_4 {
     display: flex;
     flex-direction: column;
-    margin-top: 7rem;
+    margin-top: 3rem;
     margin-bottom: 7rem;
 }
 
 /* slide 1 */
 
 embed {
-    margin-left: 1.5rem;
-    margin-top: 2rem;
     border: 3px solid #CE6A6C;
+    margin: 1rem;
+    margin-left: 1.2rem;
 
 }
 
