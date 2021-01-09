@@ -37,22 +37,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*padding: 1.5rem;
-    margin-top: 7rem;
-    margin-bottom: 7rem;*/
+
 }
 
 .stort_billede {
     width: 100vw;
-    /*margin-top: 3rem;
-    margin-bottom: 1rem;*/
+
 }
 
 .lille_billede {
     width: 100vw;
     height: auto;
-    /*margin-left: 5rem;
-    margin-bottom: 3rem;*/
+
 }
 
 /* sektion 3 */
@@ -63,7 +59,7 @@
 }
 
 .tekst_container h2 {
-    font-family: minion-pro, serif;
+    font-family: poiret-one, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 2.7rem;
@@ -71,11 +67,10 @@
 }
 
 .tekst_container p {
-    font-family: omnes-pro, sans-serif;
-    font-size: 1.2rem;
+    font-family: minion-pro, serif;
+    font-weight: 100;
     font-style: normal;
-    letter-spacing: 1px;
-    line-height: 22px;
+    font-size: 1.3rem;
 }
 
 .tekst_container .sek3_tekst1 {
@@ -120,7 +115,7 @@
 .siteknap a {
     text-decoration: none;
     color: black;
-    font-family: omnes-pro, sans-serif;
+    font-family: poiret-one, sans-serif;
     font-size: 1.2rem;
     font-style: normal;
     letter-spacing: 1px;
