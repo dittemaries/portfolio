@@ -1,6 +1,6 @@
-/*--------------------------------- Tema 3: web ---- mobil version ------------------*/
+/*--------------------------------- Tema 5: indhold ---- mobil version ------------------*/
 
-/* ------------- sektion 1 ---------- */
+/* ------------------------------ sektion 1 ----------------------------- */
 .sektion_1 {
     position: relative;
     background-image: url(baggrunde/krukke_bred.jpg);
@@ -32,7 +32,7 @@
     -webkit-transform: rotate(45deg);
 }
 
-/* ----------- sektion 2 ---------------- */
+/* ------------------------- sektion 2 ---------------------------------- */
 
 .billede_container {
     display: flex;
@@ -72,20 +72,26 @@
     }
 }
 
-
-.lille_billede {
+.midt_billede {
     padding: 0.5rem;
-    border: 2px solid cadetblue;
-    margin-bottom: 4rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-bottom: 2rem;
+    width: 80vw;
+    margin-left: 2rem;
 }
 
-/* -------------- sektion 3 ------------------ */
+.lille_billede {
+    width: 85vw;
+    padding: 0.5rem;
+    border: 2px solid #A65D03;
+    margin-bottom: 4rem;
+    margin-left: 1.5rem;
+}
+
+/* ------------------------------- sektion 3 --------------------------------------- */
 .tekst_container {
     display: flex;
     flex-direction: column;
-    background-color: #CE6A6C;
+    background-color: #A8A9A6;
 }
 
 .tekst_container h2 {
@@ -117,7 +123,7 @@
     text-align: end;
 }
 
-/* --------------- sektion 4 ------------------- */
+/* --------------------------------- sektion 4 ------------------------------------- */
 
 .sektion_4 {
     display: flex;
@@ -150,7 +156,7 @@
 .pdf {
     width: 100%;
     height: 510px;
-    border: 3px solid black;
+    border: 3px solid #A65D03;
     padding: 1rem;
 }
 
@@ -193,4 +199,265 @@
 .right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+}
+
+@media (min-width: 600px) {
+
+    /* sektion 2 */
+    .stort_billede {
+        height: 586px;
+    }
+}
+
+@media (min-width: 850px) {
+    /* sektion 2 */
+
+    .stort_billede {
+        width: 70vw;
+        height: 700px;
+        margin-left: 5rem;
+    }
+}
+
+/* ----------------------------- medium størrelse -----------------------------------------*/
+
+@media (min-width: 900px) {
+
+    /* sektion 2 */
+    .billede_container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .stort_billede {
+        width: 30vw;
+        height: 330px;
+        margin-right: 3rem;
+        padding: 1rem;
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+
+    }
+
+    .midt_billede {
+        width: 40vw;
+        margin-top: 3rem;
+    }
+
+    .lille_billede {
+        width: 47vw;
+        margin-bottom: 4rem;
+        margin-left: -0.5rem;
+        margin-top: 2rem;
+
+    }
+
+
+    /* sektion 3 */
+    .tekst_container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .tekst_container h2 {
+        padding: 1rem;
+        padding-left: 4rem;
+        padding-top: 2rem;
+    }
+
+    .tekst_container .sek3_tekst1 {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .tekst_container .sek3_tekst2 {
+        padding-right: 4rem;
+    }
+
+    /* sektion 4 */
+
+    .luna {
+        width: 80%;
+        height: 46vw;
+        padding: 1rem;
+        margin-left: 4rem;
+    }
+
+    .siteknap {
+        padding: 2rem;
+    }
+
+    .siteknap a {
+        font-size: 2rem;
+    }
+
+    .arrow1 {
+        padding: 6px;
+        top: 2.7rem;
+    }
+
+    .link_container {
+        justify-content: flex-end;
+        padding-right: 4rem;
+    }
+
+    .linkbillede {
+        max-width: 90%;
+    }
+}
+
+/* ------------------------------- desk top ----------------------------------------------*/
+
+@media (min-width: 1160px) {
+
+    /* sektion 1 */
+    .sektion_1 {
+        height: 462px;
+    }
+
+    /* sektion 2 */
+
+    .billede_container {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .stort_billede {
+        padding: 2rem;
+        height: 435px;
+        margin-top: 8rem;
+    }
+
+    .midt_billede {
+        margin-top: 1rem;
+    }
+
+    .lille_billede {
+        margin-top: 5.5rem;
+        width: 51vw;
+        margin-left: 0.5rem;
+    }
+
+    /* sektion 3 */
+    .tekst_container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .tekst_container h2 {
+        padding-left: 6rem;
+        font-size: 3.5rem;
+    }
+
+    .tekst_container p {
+        font-size: 1.8rem;
+    }
+
+    .tekst_container .sek3_tekst1 {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .tekst_container .sek3_tekst2 {
+        padding-right: 6rem;
+        padding-left: 6rem;
+    }
+
+    /* sektion 4 */
+
+    .sektion_4 {
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+    }
+
+    .billede_container2 {
+        padding: 5rem;
+    }
+
+    .luna {
+        width: 60%;
+        height: 34vw;
+    }
+
+    embed.pdf {
+        margin-top: 4rem;
+        width: 60%;
+        height: 900px;
+        margin-left: 22rem;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    /* sektion 2 */
+    .billede_container {
+        margin-top: 12rem;
+        margin-bottom: 7rem;
+    }
+
+    .stort_billede {
+        padding-left: 4rem;
+        height: 570px;
+    }
+
+    .midt_ billede {
+        margin-top: 0;
+        width: 44vw
+    }
+
+    .lille_billede {
+        margin-top: 33rem;
+        width: 54vw;
+    }
+
+    /* sektion 3 */
+    .tekst_container {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+
+    .tekst_container h2 {
+        padding-left: 8rem;
+        font-size: 3.5rem;
+    }
+
+    .tekst_container p {
+        font-size: 1.8rem;
+    }
+
+    .tekst_container .sek3_tekst1 {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .tekst_container .sek3_tekst2 {
+        padding-right: 8rem;
+        padding-left: 8rem;
+    }
+
+    /* sektion 4 */
+
+    .luna {
+        margin-top: 5rem;
+        width: 50%;
+        height: 28vw;
+    }
+
+    embed.pdf {
+        margin-top: 10rem;
+        width: 50%;
+        margin-left: 34rem;
+    }
+
+    .linkbillede {
+        width: 80%;
+    }
+
+    .billede_container2 {
+        margin-top: 10rem;
+    }
+
+    .link_container {
+        padding-right: 8rem;
+    }
 }
