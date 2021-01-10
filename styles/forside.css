@@ -147,7 +147,7 @@
 
 /* -------------- box d -------ingen link-------- */
 .container_forside .box.d {
-    background-image: url(baggrunde/studie.jpg);
+    background-image: url(baggrunde/katte.jpg);
     background-size: cover;
     background-position: 0 30%;
 }
@@ -225,7 +225,7 @@
 /* --------- box g -----link til tema 4------ */
 
 .container_forside .box.g {
-    background-image: url(baggrunde/gal.jpg);
+    background-image: url(baggrunde/hjemsendelse.jpg);
     background-size: cover;
     background-position: 0 70%;
 }
@@ -259,7 +259,7 @@
 
 /* ----------- box h -----link til tema 5-------- */
 .container_forside .box.h {
-    background-image: url(baggrunde/morfar.jpg);
+    background-image: url(baggrunde/elias.jpg);
     background-size: cover;
     background-position: 0 20%;
 }
