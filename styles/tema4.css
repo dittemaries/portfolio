@@ -1,4 +1,4 @@
-/*--------------------------------- Tema 3: web ---- mobil version ------------------*/
+/*--------------------------------- Tema 4: animation ---- mobil version ------------------*/
 
 /* ----------------- sektion 1------------------- */
 .sektion_1 {
@@ -63,7 +63,6 @@
     display: flex;
     flex-direction: column;
     background-color: #CE6A6C;
-
 }
 
 .tekst_container h2 {
@@ -197,4 +196,279 @@ embed {
     padding-left: 1rem;
     border: 3px solid #CE6A6C;
     margin-left: 0.8rem;
+}
+
+@media (min-width: 500px) {
+    /* sektion 4 */
+
+    embed.pdf {
+        width: 70vw;
+        margin-left: 4rem;
+    }
+
+}
+
+@media (min-width: 700px) {
+    /* sektion 1 */
+
+    .sektion_1 {
+        height: 325px;
+        margin-bottom: 2rem;
+    }
+
+    /* sektion 2 */
+
+    .lille_billede {
+        margin-left: 1.4rem;
+    }
+
+    /* sektion 4 */
+
+    embed.pdf {
+        height: 43vw;
+        margin-left: 5rem;
+    }
+}
+
+@media (min-width: 800px) {
+    /* sektion 1 */
+
+    .sektion_1 {
+        height: 350px;
+    }
+
+    /* sektion 3 */
+
+    #sprite_egern {
+        width: 22vw;
+        height: 28vw;
+    }
+
+    /* sektion 4 */
+
+    embed.pdf {
+        margin-left: 6.5rem;
+    }
+}
+
+/* ----------------------------- medium størrelse -----------------------------------------*/
+
+@media (min-width: 900px) {
+
+    /* sektion 1 */
+
+    sektion_1 {
+        height: 385px;
+    }
+
+    /* sektion 2 */
+    .billede_container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .stort_billede {
+        width: 50vw;
+        margin-right: 3rem;
+        padding: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+
+    }
+
+    .lille_billede {
+        position: relative;
+        width: 40vw;
+        height: 100%;
+        margin-top: 5.4rem;
+        padding: 0.5rem;
+        margin-right: 1rem;
+    }
+
+
+    /* sektion 3 */
+    .tekst_container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .tekst_container h2 {
+        padding: 1rem;
+        padding-left: 4rem;
+        padding-top: 2rem;
+    }
+
+    .tekst_container .sek3_tekst1 {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .tekst_container .sek3_tekst2 {
+        padding-right: 4rem;
+    }
+
+    /* sektion 4 */
+
+    embed.pdf {
+        margin-left: 7.5rem;
+    }
+
+    .siteknap {
+        padding: 2rem;
+    }
+
+    .siteknap a {
+        font-size: 2rem;
+    }
+
+    .arrow1 {
+        padding: 6px;
+        top: 2.7rem;
+    }
+
+    .link_container {
+        justify-content: flex-end;
+        padding-right: 2rem;
+    }
+}
+
+/* ------------------------------- desk top ----------------------------------------------*/
+
+@media (min-width: 1160px) {
+
+    /* sektion 1 */
+    .sektion_1 {
+        height: 462px;
+    }
+
+    /* sektion 2 */
+
+    .billede_container {
+        flex-direction: column;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .stort_billede {
+        width: 60vw;
+        padding: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .lille_billede {
+        margin-top: .5rem;
+        width: 50vw;
+        margin-left: 32.4rem;
+        padding: 1rem;
+    }
+
+    /* sektion 3 */
+    .tekst_container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .tekst_container h2 {
+        padding-left: 6rem;
+        font-size: 3.5rem;
+    }
+
+    .tekst_container p {
+        font-size: 1.8rem;
+    }
+
+    .tekst_container .sek3_tekst1 {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .tekst_container .sek3_tekst2 {
+        padding-right: 6rem;
+        padding-left: 6rem;
+    }
+
+    /* sektion 4 */
+
+    .sektion_4 {
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+    }
+
+    .billede_container2 {
+        padding: 5rem;
+    }
+
+    embed.pdf {
+        margin-left: 9.5rem;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    /* sektion 1 */
+    .sektion_1 {
+        height: 550px;
+    }
+
+    /* sektion 2 */
+    .billede_container {
+        margin-top: 7rem;
+        margin-bottom: 0;
+    }
+
+    .stort_billede {
+        padding-left: 4rem;
+        height: 100%;
+        width: 65vw;
+    }
+
+    .lille_billede {
+        margin-top: 1rem;
+    }
+
+    /* sektion 3 */
+    .tekst_container {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+
+    .tekst_container h2 {
+        padding-left: 8rem;
+        font-size: 3.5rem;
+    }
+
+    .tekst_container p {
+        font-size: 1.8rem;
+    }
+
+    .tekst_container .sek3_tekst1 {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .tekst_container .sek3_tekst2 {
+        padding-right: 8rem;
+        padding-left: 8rem;
+    }
+
+    /* sektion 4 */
+
+    .slides {
+        display: flex;
+        flex-direction: row;
+    }
+
+    embed.pdf {
+        width: 40vw;
+        height: 24vw;
+        margin-left: 5.3rem;
+    }
+}
+
+@media (min-width: 1500px) {
+    /* sektion 1 */
+
+    .sektion_1 {
+        height: 600px;
+    }
 }
