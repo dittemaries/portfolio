@@ -1,6 +1,6 @@
 /*--------------------------------- Tema 3: web ---- mobil version ------------------*/
 
-/* sektion 1 */
+/* --------------------------------------- sektion 1 ------------------------------------------ */
 .sektion_1 {
     position: relative;
     background-image: url(baggrunde/Landingpage.jpg);
@@ -32,23 +32,29 @@
     -webkit-transform: rotate(45deg);
 }
 
-/* sektion 2 */
+/* --------------------------------------- sektion 2 ------------------------------------ */
 
 .billede_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*padding: 1.5rem;*/
-    /*margin-top: 7rem;*/
 }
 
 .lille_billede {
     padding: 0.5rem;
-    border: 2px solid cadetblue;
+    border: 2px solid #CE6A6C;
     margin-top: 3rem;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
+}
+
+.midt_billede {
+    width: 80%;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 5px solid #CE6A6C;
 }
 
 .stort_billede {
@@ -58,7 +64,7 @@
     margin-bottom: 2rem;
 }
 
-/* sektion 3 */
+/* ----------------------------------------- sektion 3------------------------------ */
 .tekst_container {
     display: flex;
     flex-direction: column;
@@ -95,7 +101,7 @@
     text-align: end;
 }
 
-/* sektion 4 */
+/* ------------------------------------ sektion 4 -----------------------------------*/
 
 .sektion_4 {
     display: flex;
@@ -106,7 +112,7 @@
 
 /* slide 1 */
 
-embed {
+embed.pdf {
     border: 3px solid #CE6A6C;
     margin: 1rem;
     margin-left: 1.2rem;
@@ -157,11 +163,375 @@ embed {
 /* slide 2 */
 
 .pitch {
-    width: 90vw;
+    width: 87vw;
     height: 50vw;
-    overflow: hidden;
     padding: 1rem;
-    padding-left: 1rem;
     border: 3px solid #CE6A6C;
-    margin-left: 0.8rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+@media (min-width: 555px) {
+
+    /* sektion 2 */
+    .midt_billede {
+        margin-left: 3.5rem;
+    }
+
+    /* sektion 4 */
+    embed.pdf {
+        margin-left: 1.7rem;
+    }
+
+    embed.pitch {
+        margin-left: 1.5rem;
+    }
+}
+
+@media (min-width: 572px) {
+
+    /* sektion 1 */
+    .sektion_1 {
+        background-position: 50% 55%;
+    }
+}
+
+@media (min-width: 600px) {
+    /* sektion 1 */
+    background-position: 50% 60%;
+}
+
+@media (min-width: 700px) {
+
+    /* sektion 1 */
+    .sektion_1 {
+        background-position: 50% 65%;
+    }
+
+    /* sektion 4 */
+    embed.pdf {
+        width: 80vw;
+        height: 120vw;
+        margin-left: 4rem;
+    }
+
+    embed.pitch {
+        width: 80vw;
+        margin-left: 4rem;
+
+    }
+}
+
+@media (min-width: 800px) {
+
+    /* sektion 1 */
+    .sektion_1 {
+        background-position: 50% 60%;
+    }
+}
+
+@media (min-width: 880px) {
+
+    /* sektion 1 */
+    .sektion_1 {
+        background-position: 50% 43%;
+    }
+}
+
+/* ----------------------------- medium størrelse -----------------------------------------*/
+
+@media (min-width: 900px) {
+
+    /* sektion 1 */
+    .sektion_1 {
+        transform: scale(1.1);
+    }
+
+    /* sektion 2 */
+    .billede_container {
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .stort_billede {
+        width: 44vw;
+        margin-right: 1rem;
+        margin-top: 8rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .midt_billede {
+        position: relative;
+        width: 30vw;
+        height: 100%;
+        overflow: hidden;
+        margin-left: -9.5rem;
+    }
+
+    .lille_billede {
+        position: relative;
+        width: 30vw;
+        height: 100%;
+        margin-top: 8.5rem;
+        padding: 1rem;
+    }
+
+
+    /* sektion 3 */
+    .tekst_container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .tekst_container h2 {
+        padding: 1rem;
+        padding-left: 4rem;
+        padding-top: 2rem;
+    }
+
+    .tekst_container .sek3_tekst1 {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .tekst_container .sek3_tekst2 {
+        padding-right: 4rem;
+    }
+
+    /* sektion 4 */
+
+    .sektion_4 {
+        margin-top: 7rem;
+    }
+
+    embed.pdf {
+        width: 60vw;
+        height: 85vw;
+        margin-left: 10rem;
+    }
+
+    .siteknap {
+        padding: 2rem;
+    }
+
+    .siteknap a {
+        font-size: 2rem;
+    }
+
+    .arrow1 {
+        padding: 6px;
+        top: 2.7rem;
+    }
+
+    .link_container {
+        justify-content: flex-end;
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    .sektion_1 {
+        transform: scale(1);
+        background-position: 50%, 48%;
+    }
+
+    /* sektion 4 */
+
+    embed.pdf {
+        width: 50vw;
+        height: 70vw;
+        margin-left: 7.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .linkbillede {
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .link_container {
+        margin-right: 5rem;
+    }
+
+
+
+    embed.pitch {
+        width: 60vw;
+        height: 38vw;
+        margin-left: 7.4rem;
+        margin-top: 2rem;
+
+    }
+
+
+}
+
+/* ------------------------------- desk top ----------------------------------------------*/
+
+@media (min-width: 1160px) {
+
+    /* sektion 1 */
+    .sektion_1 {
+        height: 500px;
+        transform: scale(1.2);
+        background-position: 50%, 0;
+    }
+
+    /* sektion 2 */
+
+    .billede_container {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .lille_billede {
+        margin-left: 3rem;
+    }
+
+
+    /* sektion 3 */
+    .tekst_container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .tekst_container h2 {
+        padding-left: 6rem;
+        font-size: 3.5rem;
+    }
+
+    .tekst_container p {
+        font-size: 1.8rem;
+    }
+
+    .tekst_container .sek3_tekst1 {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .tekst_container .sek3_tekst2 {
+        padding-right: 6rem;
+        padding-left: 6rem;
+    }
+
+    /* sektion 4 */
+
+    .sektion_4 {
+
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+    }
+
+    embed.pdf {
+        width: 30vw;
+        height: 55vw;
+        margin-left: 8rem;
+    }
+
+
+    embed.pitch {
+        width: 76vw;
+        height: 45vw;
+        margin-left: 8rem;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    /* sektion 1 */
+    .sektion_1 {
+        background-position: 50%, 50%;
+        height: 462px;
+        transform: scale(1);
+
+    }
+
+    /* sektion 2 */
+    .billede_container {
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+    }
+
+    .stort_billede {
+        padding-left: 4rem;
+        height: 100%;
+        overflow: hidden;
+        width: 49vw;
+        margin-right: 4rem;
+        margin-top: 20rem;
+    }
+
+
+    .lille_billede {
+        margin-top: 13rem;
+        width: 31vw;
+    }
+
+    /* sektion 3 */
+    .tekst_container {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+
+    .tekst_container h2 {
+        padding-left: 8rem;
+        font-size: 3.5rem;
+    }
+
+    .tekst_container p {
+        font-size: 1.8rem;
+    }
+
+    .tekst_container .sek3_tekst1 {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .tekst_container .sek3_tekst2 {
+        padding-right: 8rem;
+        padding-left: 8rem;
+    }
+
+    /* sektion 4 */
+
+    embed.pdf {
+        margin-left: 9.5rem;
+        width: 40vw;
+        height: 55vw;
+    }
+
+    .link_container {
+        margin-right: 7rem;
+    }
+
+    embed.pitch {
+        margin-left: 9.5rem;
+    }
+
+}
+
+@media (min-width: 1510px) {
+    /* sektion 4 */
+
+    embed.pdf {
+        margin-left: 9.5rem;
+        width: 40vw;
+        height: 55vw;
+    }
+
+    .link_container {
+        margin-right: 8rem;
+    }
+
+    .billede_container2 {
+        margin-right: 3rem;
+    }
+
+    embed.pitch {
+        margin-left: 9.5rem;
+    }
 }

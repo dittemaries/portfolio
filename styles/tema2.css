@@ -216,6 +216,11 @@
 
 @media (min-width: 1160px) {
 
+    /* sektion 1 */
+    .sektion_1 {
+        height: 462px;
+    }
+
     /* sektion 2 */
 
     .billede_container {
