@@ -98,7 +98,7 @@
 @media (min-width: 770px) {
     .sektion_1 {
         margin-left: 2rem;
-        margin-right: 3rem;
+        margin-right: 16rem;
     }
 
     .sektion_2 {
@@ -135,7 +135,7 @@
     }
 
     .sektion_2 {
-        margin-left: 20rem;
+        margin-left: 27rem;
     }
 
     .sektion_3 {
@@ -178,7 +178,7 @@
     /* -------------- sektions tilpasning -------------- */
     .sektion_1 {
         position: relative;
-        margin-right: 10rem;
+        margin-right: 16rem;
         margin-left: 3rem;
         padding: 4rem;
     }
@@ -238,7 +238,7 @@
     /* -------------- sektions tilpasning -------------- */
     .sektion_1 {
         position: relative;
-        margin-right: 20rem;
+        margin-right: 26rem;
         margin-left: 5rem;
         padding: 4rem;
     }
