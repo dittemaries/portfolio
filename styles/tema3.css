@@ -390,9 +390,37 @@ embed.pdf {
 }
 
 @media (min-width: 1000px) {
+
+    /* sektion 1 */
+
     .sektion_1 {
         transform: scale(1);
         background-position: 50%, 48%;
+    }
+
+    /* sektion 3 */
+    .tekst_container .sek3_tekst1 {
+        padding-right: 14rem;
+    }
+
+    .tekst_container .sek3_tekst1_1 {
+        padding-right: 14rem;
+    }
+
+    .tekst_container .sek3_tekst2 {
+        padding-left: 14rem;
+        padding-right: 6rem;
+
+    }
+
+    .tekst_container .sek3_tekst2_2 {
+        padding-left: 14rem;
+        padding-right: 6rem;
+    }
+
+    .tekst_container .sek3_tekst2_3 {
+        padding-left: 14rem;
+        padding-right: 6rem;
     }
 
     /* sektion 4 */
@@ -412,8 +440,6 @@ embed.pdf {
     .link_container {
         margin-right: 5rem;
     }
-
-
 
     embed.pitch {
         width: 60vw;

@@ -112,15 +112,30 @@
 
 .tekst_container .sek3_tekst1 {
     padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right: 4rem;
+}
+
+.tekst_container .sek3_tekst1_1 {
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+.tekst_container .sek3_tekst1_2 {
+    padding-left: 2rem;
+    padding-right: 4rem;
 }
 
 .tekst_container .sek3_tekst2 {
     padding-left: 4rem;
     padding-right: 3rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    text-align: end;
+    padding-top: 5rem;
+}
+
+.tekst_container .sek3_tekst2_2 {
+    padding-left: 4rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
 }
 
 /* --------------------------------- sektion 4 ------------------------------------- */
@@ -209,6 +224,34 @@
     }
 }
 
+@media (min-width: 790px) {
+
+    /* sektion 3 */
+    .tekst_container .sek3_tekst1 {
+        padding-right: 6rem;
+    }
+
+    .tekst_container .sek3_tekst1_1 {
+        padding-right: 6rem;
+    }
+
+    .tekst_container .sek3_tekst1_2 {
+        padding-right: 6rem;
+    }
+
+    .tekst_container .sek3_tekst2 {
+        padding-left: 9rem;
+        padding-right: 4rem;
+
+    }
+
+    .tekst_container .sek3_tekst2_2 {
+        padding-left: 9rem;
+        padding-right: 4rem;
+    }
+
+}
+
 @media (min-width: 850px) {
     /* sektion 2 */
 
@@ -267,11 +310,25 @@
 
     .tekst_container .sek3_tekst1 {
         padding-left: 4rem;
-        padding-right: 4rem;
+        padding-right: 8rem;
+    }
+
+    .tekst_container .sek3_tekst1_1 {
+        padding-left: 4rem;
+        padding-right: 8rem;
+    }
+
+    .tekst_container .sek3_tekst1_2 {
+        padding-left: 4rem;
+        padding-right: 8rem;
     }
 
     .tekst_container .sek3_tekst2 {
-        padding-right: 4rem;
+        padding-right: 7rem;
+    }
+
+    .tekst_container .sek3_tekst2_2 {
+        padding-right: 7rem;
     }
 
     /* sektion 4 */
@@ -307,6 +364,34 @@
 }
 
 /* ------------------------------- desk top ----------------------------------------------*/
+
+@media (min-width: 1000px) {
+
+    /* sektion 3 */
+    .tekst_container .sek3_tekst1 {
+        padding-right: 14rem;
+    }
+
+    .tekst_container .sek3_tekst1_1 {
+        padding-right: 14rem;
+    }
+
+    .tekst_container .sek3_tekst1_2 {
+        padding-right: 14rem;
+    }
+
+    .tekst_container .sek3_tekst2 {
+        padding-left: 14rem;
+        padding-right: 6rem;
+
+    }
+
+    .tekst_container .sek3_tekst2_2 {
+        padding-left: 14rem;
+        padding-right: 6rem;
+    }
+
+}
 
 @media (min-width: 1160px) {
 
@@ -355,13 +440,30 @@
 
     .tekst_container .sek3_tekst1 {
         padding-left: 6rem;
-        padding-right: 6rem;
+        padding-right: 15rem;
+    }
+
+    .tekst_container .sek3_tekst1_1 {
+        padding-left: 6rem;
+        padding-right: 15rem;
+    }
+
+    .tekst_container .sek3_tekst1_2 {
+        padding-left: 6rem;
+        padding-right: 15rem;
     }
 
     .tekst_container .sek3_tekst2 {
-        padding-right: 6rem;
-        padding-left: 6rem;
+        padding-left: 17rem;
+        padding-right: 10rem;
+        padding-top: 8rem;
     }
+
+    .tekst_container .sek3_tekst2_2 {
+        padding-left: 17rem;
+        padding-right: 10rem;
+    }
+
 
     /* sektion 4 */
 
@@ -427,12 +529,27 @@
 
     .tekst_container .sek3_tekst1 {
         padding-left: 8rem;
-        padding-right: 8rem;
+        padding-right: 20rem;
+    }
+
+    .tekst_container .sek3_tekst1_1 {
+        padding-left: 8rem;
+        padding-right: 20rem;
+    }
+
+    .tekst_container .sek3_tekst1_2 {
+        padding-left: 8rem;
+        padding-right: 20rem;
     }
 
     .tekst_container .sek3_tekst2 {
-        padding-right: 8rem;
-        padding-left: 8rem;
+        padding-left: 23rem;
+        padding-right: 12rem;
+    }
+
+    .tekst_container .sek3_tekst2_2 {
+        padding-left: 23rem;
+        padding-right: 12rem;
     }
 
     /* sektion 4 */
@@ -460,4 +577,32 @@
     .link_container {
         padding-right: 8rem;
     }
+}
+
+@media (min-width: 1450px) {
+
+    /* sektion 3 */
+    .tekst_container .sek3_tekst1 {
+        padding-right: 23rem;
+    }
+
+    .tekst_container .sek3_tekst1_1 {
+        padding-right: 23rem;
+    }
+
+    .tekst_container .sek3_tekst1_2 {
+        padding-right: 23rem;
+    }
+
+    .tekst_container .sek3_tekst2 {
+        padding-left: 20rem;
+        padding-right: 12rem;
+
+    }
+
+    .tekst_container .sek3_tekst2_2 {
+        padding-left: 20rem;
+        padding-right: 12rem;
+    }
+
 }
