@@ -1,9 +1,4 @@
-:root {
-    --overlay-color: rgba(0, 0, 0, 0.5);
-    --menu-speed: 0.75s;
-}
-
-/*-----------------------------------------------*/
+/* --------------------------- burger menu med toggle --------------------------------- */
 
 .navbar {
     position: fixed;
@@ -93,7 +88,7 @@
 
 .navbar .toggler:checked ~ .menu > div {
     transform: scale(1);
-    transition-duration: var(--menu-speed);
+    transition-duration: 0.75s;
 }
 
 .navbar .toggler:checked ~ .menu > div > div {
@@ -115,7 +110,7 @@
 }
 
 .navbar .menu > div {
-    background: var(--overlay-color);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 80%;
     width: 200vw;
     height: 200vw;
