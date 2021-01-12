@@ -29,6 +29,7 @@
 
 .down {
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 /* --------------------------------------- sektion 2 ------------------------------------ */
@@ -175,6 +176,7 @@ embed.pdf {
 
 .right {
     transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 }
 
 /* slide 2 */
