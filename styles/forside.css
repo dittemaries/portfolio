@@ -400,6 +400,7 @@
 
     .container_forside .box.h {
         grid-column: span 1;
+        background-position: 50%, 50%;
     }
 }
 
